@@ -1,4 +1,4 @@
-ng import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
 import {Model} from "./Model";
 import {loadExternalResource} from "../loadExternalResource";
 
