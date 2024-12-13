@@ -1,5 +1,5 @@
 <h1 align="center"> 
-	<a href="https://JayantGoel001.github.io/">JayantGoel001.github.io</a> - v2.0
+	<a href="https://nohr-neuralreef.github.io/">nohr-neuralreef.github.io</a> - v2.0
 	<p align="center">
 		<img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E44D26?style=flat&logo=html5&logoColor=white"/>
 		<img alt="CSS3" src="https://img.shields.io/badge/-CSS3-2965f1?style=flat&logo=css3&logoColor=white"/>
@@ -16,39 +16,39 @@
 <br/>
 
 <div align="center">
-	<a href="https://github.com/JayantGoel001/JayantGoel001.github.io">
+	<a href="https://github.com/nohr-neuralreef/nohr-neuralreef.github.io">
 		<img src="src/screenshots/icon.png" alt="Logo" width="80" height="80"/>
 	</a>
-	<h3 align="center">Jayant Goel (JayantGoel001)'s Personal Portfolio</h3>
+	<h3 align="center">NOHR (nohr-neuralreef)'s secagi modules</h3>
 	<p align="center">
-		This is the source code for my Personal Portfolio.
+		This is the source code for my secagi modules.
 		<br/>
-		<a href="https://github.com/JayantGoel001/JayantGoel001.github.io"><strong>Explore the docs »</strong></a>
+		<a href="https://github.com/nohr-neuralreef/nohr-neuralreef.github.io"><strong>Explore the docs »</strong></a>
 		<br/>
 		<br/>
-		<a href="https://jayantgoel001.github.io/">View Demo</a>
+		<a href="https://nohr-neuralreef.github.io/">View Demo</a>
 		·
-		<a href="https://github.com/JayantGoel001/JayantGoel001.github.io/issues/new?assignees=JayantGoel001&labels=bug&template=bug_report.yml&title=%5BBUG%5D%3A+">Report Bug</a>
+		<a href="https://github.com/nohr-neuralreef/nohr-neuralreef.github.io/issues/new?assignees=nohr-neuralreef&labels=bug&template=bug_report.yml&title=%5BBUG%5D%3A+">Report Bug</a>
 		·
-		<a href="https://github.com/JayantGoel001/JayantGoel001.github.io/issues/new?assignees=&labels=enhancement&template=feature_request.yml&title=%5BFEAT%5D%3A+">Request Feature</a>
+		<a href="https://github.com/nohr-neuralreef/nohr-neuralreef.github.io/issues/new?assignees=&labels=enhancement&template=feature_request.yml&title=%5BFEAT%5D%3A+">Request Feature</a>
 	</p>
 	<p>
-		<img src="https://img.shields.io/github/contributors/JayantGoel001/JayantGoel001.github.io.svg?styles/default/yes.svg" alt="Contributors"/> • 
-		<img src="https://img.shields.io/github/forks/JayantGoel001/JayantGoel001.github.io.svg?styles/default/yes.svg" alt="Forks"/> • 
-		<img src="https://img.shields.io/github/stars/JayantGoel001/JayantGoel001.github.io.svg?styles/default/yes.svg" alt="Stars"/> •
-		<img src="https://img.shields.io/github/issues/JayantGoel001/JayantGoel001.github.io.svg?styles/default/yes.svg" alt="Issues"/> •
-		<img alt="Repo Size" src="https://img.shields.io/github/repo-size/JayantGoel001/JayantGoel001.github.io"/>
+		<img src="https://img.shields.io/github/contributors/nohr-neuralreef/nohr-neuralreef.github.io.svg?styles/default/yes.svg" alt="Contributors"/> • 
+		<img src="https://img.shields.io/github/forks/nohr-neuralreef/nohr-neuralreef.github.io.svg?styles/default/yes.svg" alt="Forks"/> • 
+		<img src="https://img.shields.io/github/stars/nohr-neuralreef/nohr-neuralreef.github.io.svg?styles/default/yes.svg" alt="Stars"/> •
+		<img src="https://img.shields.io/github/issues/nohr-neuralreef/nohr-neuralreef.github.io.svg?styles/default/yes.svg" alt="Issues"/> •
+		<img alt="Repo Size" src="https://img.shields.io/github/repo-size/nohr-neuralreef/nohr-neuralreef.github.io"/>
 	</p>
 	<p>
-		<img alt="Github Deployment Status" src="https://github.com/JayantGoel001/JayantGoel001.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages&dummy=unused"/> •
-		<img src="https://github.com/JayantGoel001/JayantGoel001.github.io/actions/workflows/publish-docker.yml/badge.svg?dummy=unused" alt="Docker Image Status"/>
+		<img alt="Github Deployment Status" src="https://github.com/nohr-neuralreef/nohr-neuralreef.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages&dummy=unused"/> •
+		<img src="https://github.com/nohr-neuralreef/nohr-neuralreef.github.io/actions/workflows/publish-docker.yml/badge.svg?dummy=unused" alt="Docker Image Status"/>
 	</p>
 </div>
 
 <br/>
 
 <p align="center">
-  <a href="https://JayantGoel001.github.io/">
+  <a href="https://nohr-neuralreef.github.io/">
     <img src="src/screenshots/screenshot.gif" alt="landing page"/>
   </a>
 </p>
@@ -90,9 +90,9 @@
 - **Sonic Silver** - Muted Text Color
 - **White** - Text Color
 - **Cultured** - Light Text Color & Light Background Color
-- **Dutch White** - Waifu Tips Background Color
+- **Dutch White** - brain Tips Background Color
 
-<a href="https://coolors.co/242a35-ff9800-212529-6c757d-ffffff-f8f9fa-ecd9bc">
+<a href="https://coolors.co/262626-f41d7e-300000-130031-F5F5F5-E2E2E8-DED9D0">
   <img alt="Color Palette Screenshot" src="src/screenshots/color-main.png"/>
 </a>
 
@@ -107,26 +107,26 @@
 - **Blue Jeans** - Inner Splash Circle color
 - **Dark Jungle Green** - 404 Text Color
 
-<a href="https://coolors.co/090909-121212-ffff00-03a9f4-011718">
+<a href="https://coolors.co/090909-121212-#f51999-03a9f4-011718">
   <img alt="Color Palette Screenshot" src="src/screenshots/color-loader-404.png"/>
 </a>
 
 ### Icon
 
-This is the Favicon of me in [JayantGoel001.github.io](https://JayantGoel001.github.io)
+This is the Favicon of me in [nohr-neuralreef.github.io](https://nohr-neuralreef.github.io)
 
 <img alt="Me Icon" src="src/screenshots/icon.png" width="192"/>
 
 Insert the following code in the `<head>` section of your pages to support favicons on all browsers and platforms.
 
 ```html
-<meta name="theme-color" content="#242a35">
+<meta name="theme-color" content="#262626">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-<link rel="mask-icon" href="assets/images/safari-pinned-tab.svg" color="#242a35">
-<meta name="msapplication-TileColor" content="#242a35">
+<link rel="mask-icon" href="assets/images/safari-pinned-tab.svg" color="#262626">
+<meta name="msapplication-TileColor" content="#262626">
 <meta name="msapplication-TileImage" content="assets/images/mstile-70x70.png">
 <meta name="msapplication-TileImage" content="assets/images/mstile-144x144.png">
 <meta name="msapplication-TileImage" content="assets/images/mstile-150x150.png">
@@ -134,9 +134,9 @@ Insert the following code in the `<head>` section of your pages to support favic
 <meta name="msapplication-TileImage" content="assets/images/mstile-310x310.png">
 ```
 
-Results :- [100%](https://realfavicongenerator.net/favicon_checker?protocol=https&site=jayantgoel001.github.io)
+Results :- [100%](https://realfavicongenerator.net/favicon_checker?protocol=https&site=nohr-neuralreef.github.io)
 
-These are the Font Awesome Icons used in [JayantGoel001.github.io](https://JayantGoel001.github.io)
+These are the Font Awesome Icons used in [nohr-neuralreef.github.io](https://nohr-neuralreef.github.io)
 
 <img alt="Font Awesome Icon" src="src/screenshots/font-awesome-icon.png"/>
 
@@ -169,17 +169,17 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - Clone the repository :
     - With HTTPS:
       ```bash
-      git clone https://github.com/JayantGoel001/JayantGoel001.github.io.git
+      git clone https://github.com/nohr-neuralreef/nohr-neuralreef.github.io.git
       ```
     - With SSH:
       ```bash
-      git@github.com:JayantGoel001/JayantGoel001.github.io.git
+      git@github.com:nohr-neuralreef/nohr-neuralreef.github.io.git
       ```
       
 - Navigate to working Directory and **main** branch
 
 	```bash
-	cd JayantGoel001.github.io
+	cd nohr-neuralreef.github.io
 	git switch main
 	```
 
@@ -234,24 +234,24 @@ Make sure you have [Docker](https://www.docker.com/products/docker-desktop/) ins
 docker --version
 ```
 
-  - To pull the [GitHub Container Registry](https://github.com/JayantGoel001/JayantGoel001.github.io/pkgs/container/jayantgoel001.github.io) Image:
+  - To pull the [GitHub Container Registry](https://github.com/nohr-neuralreef/nohr-neuralreef.github.io/pkgs/container/nohr-neuralreef.github.io) Image:
     ```bash
-    docker pull ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
+    docker pull ghcr.io/nohr-neuralreef/nohr-neuralreef.github.io:latest
     ```
   
-  - To pull the [Dockerhub](https://hub.docker.com/r/jayantgoel001/jayantgoel001.github.io) Image:
+  - To pull the [Dockerhub](https://hub.docker.com/r/nohr-neuralreef/nohr-neuralreef.github.io) Image:
     ```bash
-    docker pull jayantgoel001/jayantgoel001.github.io:latest
+    docker pull nohr-neuralreef/nohr-neuralreef.github.io:latest
     ```
   
-  - To automatically pull and run the [GitHub Container Registry](https://github.com/JayantGoel001/JayantGoel001.github.io/pkgs/container/jayantgoel001.github.io) Image:
+  - To automatically pull and run the [GitHub Container Registry](https://github.com/nohr-neuralreef/nohr-neuralreef.github.io/pkgs/container/nohr-neuralreef.github.io) Image:
     ```bash
-    docker run -d -p 4200:80 ghcr.io/jayantgoel001/jayantgoel001.github.io:latest
+    docker run -d -p 4200:80 ghcr.io/nohr-neuralreef/nohr-neuralreef.github.io:latest
     ```
 
-  - To automatically pull and run the [Dockerhub](https://hub.docker.com/r/jayantgoel001/jayantgoel001.github.io) Image:
+  - To automatically pull and run the [Dockerhub](https://hub.docker.com/r/nohr-neuralreef/nohr-neuralreef.github.io) Image:
     ```bash
-    docker run -d -p 4200:80 jayantgoel001/jayantgoel001.github.io:latest
+    docker run -d -p 4200:80 nohr-neuralreef/nohr-neuralreef.github.io:latest
     ```
 
     Open [http://localhost:4200/](http://localhost:4200/) to view it in the Default Browser.
@@ -262,10 +262,10 @@ docker --version
 - Home
 - About
 	- About
-	- Skill
-	- Education
-- Portfolio
-- Training
+	- progress
+	- roadmap
+- modules
+- mission
 - Achievement
 - Contact
 
@@ -365,10 +365,10 @@ docker --version
     |   |       page-not-found.component.ts
     |   |       page-not-found.module.ts
     |   |       
-    |   +---portfolio
-    |   |       portfolio.component.css
-    |   |       portfolio.component.html
-    |   |       portfolio.component.ts
+    |   +---modules
+    |   |       modules.component.css
+    |   |       modules.component.html
+    |   |       modules.component.ts
     |   |       
     |   +---quote
     |   |       quote.component.css
@@ -380,16 +380,16 @@ docker --version
     |   |       social.component.html
     |   |       social.component.ts
     |   |       
-    |   +---training
-    |   |       training.component.css
-    |   |       training.component.html
-    |   |       training.component.ts
+    |   +---mission
+    |   |       mission.component.css
+    |   |       mission.component.html
+    |   |       mission.component.ts
     |   |       
-    |   \---waifu
+    |   \---brain
     |           Model.ts
-    |           waifu.component.css
-    |           waifu.component.html
-    |           waifu.component.ts
+    |           brain.component.css
+    |           brain.component.html
+    |           brain.component.ts
     |           
     +---assets
     |   |   data.min.js
@@ -449,9 +449,9 @@ docker --version
     |   |   |       HackerRank.webp
     |   |   |       Hacktoberfest.webp
     |   |   |       
-    |   |   \---portfolio
+    |   |   \---modules
     |   |           A-Social-Media.webp
-    |   |           AI-Image-Caption-Bot.webp
+    |   |           identification_neuralreef..webp
     |   |           AI-Music-Generation.webp
     |   |           E-Commerce-Site.webp
     |   |           School-Donation-Analysis.webp
@@ -549,32 +549,32 @@ PageSpeed Insights (PSI) reports on the performance of a page on both mobile and
 
 - **Desktop**
 
-	[![PageSpeed Insight Desktop](src/screenshots/PageSpeedInsight%20Desktop.png)](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fjayantgoel001.github.io%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa)
+	[![PageSpeed Insight Desktop](src/screenshots/PageSpeedInsight%20Desktop.png)](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fnohr-neuralreef.github.io%2F&strategy=desktop&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa)
 
 - **Mobile**
 
-	[![PageSpeed Insight Mobile](src/screenshots/PageSpeedInsight%20Mobile.png)](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fjayantgoel001.github.io%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa)
+	[![PageSpeed Insight Mobile](src/screenshots/PageSpeedInsight%20Mobile.png)](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fnohr-neuralreef.github.io%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa)
 
 
 ## Creator / Maintainer :man_technologist:
 
-👤 Jayant Goel ([JayantGoel001](https://github.com/JayantGoel001))
+👤 NOHR ([nohr-neuralreef](https://github.com/nohr-neuralreef))
 
 If you have any questions, comments, or concerns, feel free to contact me below.
 
 <p align="left">
-	<a href="https://www.linkedin.com/in/JayantGoel001"> 
+	<a href="https://www.linkedin.com/in/nohr-neuralreef"> 
     	<img alt="Connect via LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
   	</a>
 	<a href="mailto:jgoel92@gmail.com"> 
 		<img alt="Connect via Email" src="https://img.shields.io/badge/Gmail-c14438?style=flat&logo=Gmail&logoColor=white" />
 	</a>
-	<a href="https://www.twitter.com/JayantGoel001"> 
+	<a href="https://www.twitter.com/nohr-neuralreef"> 
     	<img alt="Connect via Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white" />
   	</a>
 </p>
 
-This project was created for educational purposes and for personal use. Feel free to take inspiration.
+This project was created for roadmapal purposes and for secagi use. Feel free to take inspiration.
 
 If you like my content or find this code useful, give it a ⭐.
 
@@ -583,7 +583,7 @@ If you like my content or find this code useful, give it a ⭐.
 
 Contributions, Issues and Feature requests are Welcome!
 
-Feel free to check the [Issues page](https://github.com/JayantGoel001/JayantGoel001.github.io/issues/).
+Feel free to check the [Issues page](https://github.com/nohr-neuralreef/nohr-neuralreef.github.io/issues/).
 
 
 ## Contributors ✨
@@ -600,10 +600,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="http://JayantGoel001.github.io"><img src="https://avatars.githubusercontent.com/u/54479676?v=4?s=100" width="100px;" alt="Jayant Goel"/><br /><sub><b>Jayant Goel</b></sub></a><br /><a href="https://github.com/JayantGoel001/JayantGoel001.github.io/commits?author=JayantGoel001" title="Code">💻</a> <a href="#ideas-JayantGoel001" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/JayantGoel001/JayantGoel001.github.io/commits?author=JayantGoel001" title="Tests">⚠️</a> <a href="#maintenance-JayantGoel001" title="Maintenance">🚧</a> <a href="https://github.com/JayantGoel001/JayantGoel001.github.io/commits?author=JayantGoel001" title="Documentation">📖</a> <a href="#design-JayantGoel001" title="Design">🎨</a> <a href="https://github.com/JayantGoel001/JayantGoel001.github.io/pulls?q=is%3Apr+reviewed-by%3AJayantGoel001" title="Reviewed Pull Requests">👀</a> <a href="#content-JayantGoel001" title="Content">🖋</a> <a href="#a11y-JayantGoel001" title="Accessibility">️️️️♿️</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/anchal-p-908643b6/"><img src="https://avatars.githubusercontent.com/u/73632448?v=4?s=100" width="100px;" alt="Anchal Pandey"/><br /><sub><b>Anchal Pandey</b></sub></a><br /><a href="https://github.com/JayantGoel001/JayantGoel001.github.io/issues?q=author%3Acode1511" title="Bug reports">🐛</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://emmadawson.dev"><img src="https://avatars.githubusercontent.com/u/57045550?v=4?s=100" width="100px;" alt="Emma Dawson"/><br /><sub><b>Emma Dawson</b></sub></a><br /><a href="https://github.com/JayantGoel001/JayantGoel001.github.io/issues?q=author%3Aemmalearnscode" title="Bug reports">🐛</a> <a href="#ideas-emmalearnscode" title="Ideas, Planning, & Feedback">🤔</a> <a href="#a11y-emmalearnscode" title="Accessibility">️️️️♿️</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/NarpatAanjana"><img src="https://avatars.githubusercontent.com/u/86047565?v=4?s=100" width="100px;" alt="Narpat Aanjana"/><br /><sub><b>Narpat Aanjana</b></sub></a><br /><a href="https://github.com/JayantGoel001/JayantGoel001.github.io/issues?q=author%3ANarpatAanjana" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://nohr-neuralreef.github.io"><img src="https://avatars.githubusercontent.com/u/54479676?v=4?s=100" width="100px;" alt="NOHR"/><br /><sub><b>NOHR</b></sub></a><br /><a href="https://github.com/nohr-neuralreef/nohr-neuralreef.github.io/commits?author=nohr-neuralreef" title="Code">💻</a> <a href="#ideas-nohr-neuralreef" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/nohr-neuralreef/nohr-neuralreef.github.io/commits?author=nohr-neuralreef" title="Tests">⚠️</a> <a href="#maintenance-nohr-neuralreef" title="Maintenance">🚧</a> <a href="https://github.com/nohr-neuralreef/nohr-neuralreef.github.io/commits?author=nohr-neuralreef" title="Documentation">📖</a> <a href="#design-nohr-neuralreef" title="Design">🎨</a> <a href="https://github.com/nohr-neuralreef/nohr-neuralreef.github.io/pulls?q=is%3Apr+reviewed-by%3Anohr-neuralreef" title="Reviewed Pull Requests">👀</a> <a href="#content-nohr-neuralreef" title="Content">🖋</a> <a href="#a11y-nohr-neuralreef" title="Accessibility">️️️️♿️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/anchal-p-908643b6/"><img src="https://avatars.githubusercontent.com/u/73632448?v=4?s=100" width="100px;" alt="Anchal Pandey"/><br /><sub><b>Anchal Pandey</b></sub></a><br /><a href="https://github.com/nohr-neuralreef/nohr-neuralreef.github.io/issues?q=author%3Acode1511" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://emmadawson.dev"><img src="https://avatars.githubusercontent.com/u/57045550?v=4?s=100" width="100px;" alt="Emma Dawson"/><br /><sub><b>Emma Dawson</b></sub></a><br /><a href="https://github.com/nohr-neuralreef/nohr-neuralreef.github.io/issues?q=author%3Aemmalearnscode" title="Bug reports">🐛</a> <a href="#ideas-emmalearnscode" title="Ideas, Planning, & Feedback">🤔</a> <a href="#a11y-emmalearnscode" title="Accessibility">️️️️♿️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/NarpatAanjana"><img src="https://avatars.githubusercontent.com/u/86047565?v=4?s=100" width="100px;" alt="Narpat Aanjana"/><br /><sub><b>Narpat Aanjana</b></sub></a><br /><a href="https://github.com/nohr-neuralreef/nohr-neuralreef.github.io/issues?q=author%3ANarpatAanjana" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>
@@ -619,4 +619,4 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 ## 📝 License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.<br/>
-Copyright &copy; 2021 Jayant Goel. All rights reserved. 
+Copyright &copy; 2021 NOHR. All rights reserved. 

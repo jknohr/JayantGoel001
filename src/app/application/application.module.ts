@@ -8,13 +8,13 @@ import {HomeComponent} from "../home/home.component";
 import {NavbarComponent} from "../navbar/navbar.component";
 import {AboutComponent} from "../about/about.component";
 import {QuoteComponent} from "../quote/quote.component";
-import {PortfolioComponent} from "../portfolio/portfolio.component";
-import {TrainingComponent} from "../training/training.component";
-import {AchievementComponent} from "../achievement/achievement.component";
+import {modulesComponent} from "../modules/modules.component";
+import {missionComponent} from "../mission/mission.component";
+import {AchievementComponent} from "../achievement/vision.component";
 import {ContactComponent} from "../contact/contact.component";
 import {SocialComponent} from "../social/social.component";
 import {FooterComponent} from "../footer/footer.component";
-import {WaifuComponent} from "../waifu/waifu.component";
+import {brainComponent} from "../brain/brain.component";
 import {RouterModule, Routes} from "@angular/router";
 
 const routes: Routes = [{ path: '', component: ApplicationComponent }];
@@ -26,13 +26,13 @@ const routes: Routes = [{ path: '', component: ApplicationComponent }];
 		NavbarComponent,
 		AboutComponent,
 		QuoteComponent,
-		PortfolioComponent,
-		TrainingComponent,
+		modulesComponent,
+		missionComponent,
 		AchievementComponent,
 		ContactComponent,
 		SocialComponent,
 		FooterComponent,
-		WaifuComponent
+		brainComponent
 	],
 	imports: [
 		RouterModule.forChild(routes),
