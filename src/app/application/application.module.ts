@@ -10,7 +10,7 @@ import {AboutComponent} from "../about/about.component";
 import {QuoteComponent} from "../quote/quote.component";
 import {modulesComponent} from "../modules/modules.component";
 import {missionComponent} from "../mission/mission.component";
-import {AchievementComponent} from "../achievement/vision.component";
+import {AchievementComponent} from "../vision/vision.component";
 import {ContactComponent} from "../contact/contact.component";
 import {SocialComponent} from "../social/social.component";
 import {FooterComponent} from "../footer/footer.component";
