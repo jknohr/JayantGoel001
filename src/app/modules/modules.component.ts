@@ -3,10 +3,11 @@ import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@an
 declare var data : any;
 
 @Component({
-	selector: 'app-modules',
-	templateUrl: './modules.component.html',
-	changeDetection: ChangeDetectionStrategy.OnPush,
-	styleUrls: ['./modules.component.css']
+    selector: 'app-modules',
+    templateUrl: './modules.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    styleUrls: ['./modules.component.css'],
+    standalone: false
 })
 export class modulesComponent implements OnInit {
 	public modulesData = data['modules'];

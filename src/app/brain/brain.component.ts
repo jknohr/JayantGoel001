@@ -7,10 +7,11 @@ declare var Live2D : any;
 declare var data : any;
 
 @Component({
-	selector: 'app-brain',
-	templateUrl: './brain.component.html',
-	changeDetection: ChangeDetectionStrategy.OnPush,
-	styleUrls: ['./brain.component.css']
+    selector: 'app-brain',
+    templateUrl: './brain.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    styleUrls: ['./brain.component.css'],
+    standalone: false
 })
 export class brainComponent implements OnInit {
 	private i : any;
