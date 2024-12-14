@@ -90,7 +90,7 @@
 - **Sonic Silver** - Muted Text Color
 - **White** - Text Color
 - **Cultured** - Light Text Color & Light Background Color
-- **Dutch White** - brain Tips Background Color
+- **Dutch White** - waifu Tips Background Color
 
 <a href="https://coolors.co/262626-f41d7e-300000-130031-F5F5F5-E2E2E8-DED9D0">
   <img alt="Color Palette Screenshot" src="screenshots/color-main.png"/>
@@ -266,7 +266,7 @@ docker --version
 	- roadmap
 - modules
 - mission
-- Achievement
+- modules
 - Contact
 
 
@@ -371,7 +371,7 @@ docker --version
 |   |   |   quote-img.webp
 |   |   |   safari-pinned-tab.svg
 |   |   |   
-|   |   +---achievement
+|   |   +---modules
 |   |   |       DataScience.webp
 |   |   |       HackerRank.webp
 |   |   |       Hacktoberfest.webp

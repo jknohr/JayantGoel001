@@ -1,25 +1,63 @@
-import {ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnInit} from '@angular/core';
+import { Component, Input, OnInit, ChangeDetectorRef } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 
-declare var data : any;
+interface SocialLink {
+    name: string;
+    link: string;
+    class: string;
+    placement: string;
+}
 
 @Component({
     selector: 'app-social',
     templateUrl: './social.component.html',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     styleUrls: ['./social.component.css'],
-    standalone: false
+    standalone: true,
+    imports: [
+        CommonModule,
+        NgbTooltipModule
+    ]
 })
-
 export class SocialComponent implements OnInit {
-	public socialData = data['Social'];
-	@Input() color : String = "black";
+    @Input() color: string = 'black';
 
-	constructor(private changeDetectorRef: ChangeDetectorRef) {
-		changeDetectorRef.detach();
-	}
+    public socialData: SocialLink[][] = [
+        [
+            {
+                name: 'GitHub',
+                link: 'https://github.com/yourusername',
+                class: 'fab fa-github',
+                placement: 'top'
+            },
+            {
+                name: 'LinkedIn',
+                link: 'https://linkedin.com/in/yourusername',
+                class: 'fab fa-linkedin-in',
+                placement: 'top'
+            }
+        ],
+        [
+            {
+                name: 'Twitter',
+                link: 'https://twitter.com/yourusername',
+                class: 'fab fa-twitter',
+                placement: 'bottom'
+            },
+            {
+                name: 'Instagram',
+                link: 'https://instagram.com/yourusername',
+                class: 'fab fa-instagram',
+                placement: 'bottom'
+            }
+        ]
+    ];
 
-	ngOnInit(): void {
-		this.changeDetectorRef.detectChanges();
-	}
+    constructor(private changeDetectorRef: ChangeDetectorRef) {
+        changeDetectorRef.detach();
+    }
 
+    ngOnInit(): void {
+        this.changeDetectorRef.detectChanges();
+    }
 }

@@ -1,1 +1,80 @@
-.quote-section{padding:17em 0;position:relative;background-image:url(../../assets/images/neuralreef_habitat2.webp);background-attachment:fixed;color:white}.quote-section .overlay{position:absolute;top:0;left:0;right:0;bottom:0;background:#262626;opacity:.7}.quote-section .h2{font-size:40px;font-weight:900}@media (min-width:200px) and (max-width:768px){.quote-section{padding:8em 0}}
+.quote-section {
+    padding: 17em 0;
+    position: relative;
+    background-image: url(../../assets/images/neuralreef_habitat2.webp);
+    background-attachment: fixed;
+    color: white;
+}
+
+.quote-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #262626;
+    opacity: 0.7;
+}
+
+.quote-section .h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+/* Animation Classes */
+.fadeInUp {
+    animation: fadeInUp 1s ease-out;
+}
+
+.slideInLeft {
+    animation: slideInLeft 0.5s ease-out;
+}
+
+.slideInRight {
+    animation: slideInRight 0.5s ease-out;
+}
+
+/* Keyframe Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Responsive Design */
+@media (min-width: 200px) and (max-width: 768px) {
+    .quote-section {
+        padding: 8em 0;
+    }
+    
+    .quote-section .h2 {
+        font-size: 30px;
+    }
+}

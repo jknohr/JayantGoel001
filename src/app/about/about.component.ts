@@ -1,56 +1,96 @@
-import {AfterViewInit, ChangeDetectionStrategy, ChangeDetectorRef, Component, HostListener, OnInit} from '@angular/core';
+import { Component, OnInit, AfterViewInit, ChangeDetectorRef, HostListener } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 
-declare var data : any;
+interface AboutData {
+    NavTabs: Array<{
+        id: string;
+        name: string;
+        placement: string;
+    }>;
+    image: string;
+    name: string;
+    about: {
+        'tech-stats': string;
+        bio: string;
+        'IDE, Editors & Tools': string[];
+    };
+    progresss: Array<Array<{
+        name: string;    // Changed from progress to name
+        value: number;   // Changed from progress to value
+    }>>;
+    roadmap: Array<{
+        degree: string;
+        college: string;
+        duration: string;
+        percentage: string;
+        textAlignment: string;
+        animationClass: string;
+    }>;
+}
+
+declare var data: {
+    About: AboutData;
+};
 
 @Component({
     selector: 'app-about',
     templateUrl: './about.component.html',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     styleUrls: ['./about.component.css'],
-    standalone: false
+    standalone: true,
+    imports: [
+        CommonModule,
+        NgbTooltipModule
+    ]
 })
+export class AboutComponent implements OnInit, AfterViewInit {
+    public aboutData: AboutData = data['About'];
+    public activeTab = 'story';
+    public selector: HTMLElement | null = null;
+    public activeElements: { [key: string]: HTMLElement } = {};
 
-export class AboutComponent implements OnInit,AfterViewInit {
-	public aboutData = data["About"];
-	public activeTab = "story";
-	public selector : any;
+    constructor(private changeDetectorRef: ChangeDetectorRef) {
+        changeDetectorRef.detach();
+    }
 
-	public activeElements : any = {};
+    ngOnInit(): void {
+        this.changeDetectorRef.detectChanges();
+    }
 
-	constructor(public changeDetectorRef: ChangeDetectorRef) {
-		changeDetectorRef.detach();
-	}
+    ngAfterViewInit(): void {
+        this.initializeTabElements();
+        this.changeActiveTab(this.activeTab);
+    }
 
-	ngOnInit(): void {
-		this.changeDetectorRef.detectChanges();
-	}
-	ngAfterViewInit() {
-		for(const tab of this.aboutData['NavTabs']){
-			if(!this.activeElements[tab.id]){
-				this.activeElements[tab.id] = document.getElementById(tab.id+'-tab')!!;
-			}
-			this.activeElements[tab.id].addEventListener('click',(event : any) => event.preventDefault());
-		}
+    public changeActiveTab(tab: string): void {
+        this.updateSelector(tab);
+        this.activeTab = tab;
+        this.changeDetectorRef.detectChanges();
+    }
 
-		this.changeActiveTab(this.activeTab);
-	}
+    private initializeTabElements(): void {
+        for (const tab of this.aboutData.NavTabs) {
+            const element = document.getElementById(`${tab.id}-tab`);
+            if (element) {
+                this.activeElements[tab.id] = element;
+                element.addEventListener('click', (event) => event.preventDefault());
+            }
+        }
+    }
 
-	@HostListener('window:resize', ['$event'])
-	onWindowResize() {
-		this.updateSelector(this.activeTab);
-	}
+    private updateSelector(tab: string): void {
+        if (!this.selector) {
+            this.selector = document.getElementById('selector');
+        }
+        
+        if (this.selector && this.activeElements[tab]) {
+            this.selector.style.width = `${this.activeElements[tab].offsetWidth}px`;
+            this.selector.style.left = `${this.activeElements[tab].offsetLeft}px`;
+        }
+    }
 
-	public changeActiveTab(tab : string) {
-		this.updateSelector(tab);
-		this.activeTab = tab;
-		this.changeDetectorRef.detectChanges();
-	}
-
-	public updateSelector(tab : string) {
-		if(!this.selector){
-			this.selector = document.getElementById('selector');
-		}
-		this.selector.style.width = `${this.activeElements[tab].offsetWidth}px`;
-		this.selector.style.left = `${this.activeElements[tab].offsetLeft}px`;
-	}
+    @HostListener('window:resize')
+    onWindowResize(): void {
+        this.updateSelector(this.activeTab);
+    }
 }

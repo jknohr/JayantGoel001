@@ -1,25 +1,35 @@
-import {ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit} from '@angular/core';
+import { ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
-declare var data : any;
+interface QuoteData {
+    quote: string;
+    author: string;
+}
+
+declare var data: {
+    Quote: QuoteData[];
+};
 
 @Component({
     selector: 'app-quote',
     templateUrl: './quote.component.html',
-    changeDetection: ChangeDetectionStrategy.OnPush,
     styleUrls: ['./quote.component.css'],
-    standalone: false
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: true,
+    imports: [CommonModule]
 })
 export class QuoteComponent implements OnInit {
-	public quoteData = this.getRandomValue(data['Quote']);
-	constructor(private changeDetectorRef: ChangeDetectorRef) {
-		changeDetectorRef.detach();
-	}
+    public quoteData: QuoteData = this.getRandomValue(data['Quote']);
 
-	public getRandomValue(e : any) {
-		return Array.isArray(e) ? e[Math.floor(Math.random() * e.length)] : e;
-	}
+    constructor(private changeDetectorRef: ChangeDetectorRef) {
+        changeDetectorRef.detach();
+    }
 
-	ngOnInit(): void {
-		this.changeDetectorRef.detectChanges();
-	}
+    private getRandomValue(quotes: QuoteData[]): QuoteData {
+        return Array.isArray(quotes) ? quotes[Math.floor(Math.random() * quotes.length)] : quotes;
+    }
+
+    ngOnInit(): void {
+        this.changeDetectorRef.detectChanges();
+    }
 }

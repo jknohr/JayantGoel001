@@ -1,1 +1,72 @@
-.contact-wrapper{color:#cacaca;background:#262626}.txt-bg-contact::before{content:"Contact Me"}.contact-links{color:#fff;font-size:16px}.line-height-normal{line-height:90%}@media (min-width:200px) and (max-width:768px){.txt-bg-contact::before{padding-top:15px}}
+.contact-wrapper {
+    color: #cacaca;
+    background: #262626;
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.txt-bg-contact::before {
+    content: "Contact Me";
+    position: absolute;
+    font-size: 8em;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.02);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.contact-links {
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.contact-links:hover {
+    color: #00FFDD;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+.contact-links::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #00FFDD;
+    bottom: -4px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.contact-links:hover::after {
+    width: 100%;
+}
+
+.line-height-normal {
+    line-height: 90%;
+}
+
+.text-custom {
+    color: #00FFDD;
+    transition: all 0.3s ease;
+}
+
+.pointer:hover .text-custom {
+    transform: scale(1.1);
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+    .txt-bg-contact::before {
+        padding-top: 15px;
+        font-size: 4em;
+    }
+    
+    .contact-wrapper {
+        padding: 40px 0;
+    }
+}

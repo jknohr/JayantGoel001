@@ -1,1 +1,84 @@
-<section class="section pointer mission-section position-relative" id="mission" [ngClass]="{'mission-section-night': darkTheme}"><div class="mission-bg position-absolute top-0 left-0 width-full height-full"></div><img src="assets/images/{{missionData['background']}}" title="mission Background Image" class="mission-bg-cloud position-absolute bottom-0" alt="mission Background Image" loading="lazy"><div class="container z-1"><div class="position-relative mb-6 mx-auto mx-md-0 width-175"><div class="sun position-relative rounded-circle"><div *ngFor="let sun of missionData['sun']" class="sun-{{sun}} rounded-circle top-0 left-0 position-absolute"></div></div><div *ngFor="let developTime of missionData['developTime']" class="develop-time develop-time-{{developTime['time']}} rounded-circle position-absolute" [ngStyle]="{'left':developTime['style']['left'],'top':developTime['style']['top']}"></div><div class="moon position-absolute top-0"><div *ngFor="let dot of missionData['moon']['dot']" class="moon-{{dot}} d-block rounded-circle position-absolute"></div><img *ngFor="let name of missionData['moon']['name']" src="assets/images/{{name.toLowerCase()+'.svg'}}" alt="{{name.toLowerCase()}}" title="{{name.toLowerCase()}}" class="{{name.toLowerCase()+'-svg'}} position-absolute" loading="lazy"></div></div><div class="row justify-content-center txt-bg txt-bg-mission"><div class=col-lg-6><div class="section-title text-center mb-4 pb-2 wow fadeIn"><div class="mb-5 pb-3"> <i class="fas fa-infinity h1 text-muted"></i></div><h2 class="h3 font-weight-bold" id=my-mission>My mission</h2><p class="text-muted mx-auto mb-0 mt-4 para-desc">Certifications and Work Profile</p></div></div></div><div *ngFor="let missionList of missionData['mission']" class=row><div *ngFor="let mission of missionList" class="col-lg-4 wow bounceIn{{mission['class']}}"><div class="mission-flip-box mt-4 pt-2"><div class="mission-front-flip text-center p-5"><div class=mission-desc><h3 class="h5 font-weight-bold mb-3">{{mission['title']}}</h3><p class="text-muted mb-0">{{mission['subtitle']}}</p><p class="text-muted mb-0">{{mission['date']}}</p></div></div><div class="mission-back-flip text-center text-white p-4"><div class="mb-1">{{mission['description']}}</div><br><ng-template #title><strong> <em>Certificate Link</em> </strong></ng-template><a rel="noreferrer" aria-label="certificate(opens in a new tab)" href="https://drive.google.com/file/d/{{mission['link']}}/view?usp=sharing" target=_blank class="btn btn-round p-2 certificate-button" placement="bottom" [ngbTooltip]="title"> Certificate Link </a></div></div></div></div></div></section>
+<section class="section pointer mission-section position-relative" 
+         id="mission" 
+         [ngClass]="{'mission-section-night': darkTheme}">
+    
+    <div class="mission-bg position-absolute top-0 left-0 width-full height-full"></div>
+    
+    <img [src]="'assets/images/' + missionData.background" 
+         title="mission Background Image" 
+         class="mission-bg-cloud position-absolute bottom-0" 
+         alt="mission Background Image" 
+         loading="lazy">
+    
+    <div class="container z-1">
+        <div class="position-relative mb-6 mx-auto mx-md-0 width-175">
+            <div class="sun position-relative rounded-circle">
+                <div *ngFor="let sun of missionData.sun" 
+                     class="sun-{{sun}} rounded-circle top-0 left-0 position-absolute">
+                </div>
+            </div>
+            
+            <div *ngFor="let developTime of missionData.developTime" 
+                 class="develop-time develop-time-{{developTime.time}} rounded-circle position-absolute" 
+                 [ngStyle]="{'left': developTime.style.left, 'top': developTime.style.top}">
+            </div>
+            
+            <div class="moon position-absolute top-0">
+                <div *ngFor="let dot of missionData.moon.dot" 
+                     class="moon-{{dot}} d-block rounded-circle position-absolute">
+                </div>
+                <img *ngFor="let name of missionData.moon.name" 
+                     [src]="'assets/images/' + name.toLowerCase() + '.svg'"
+                     [alt]="name.toLowerCase()"
+                     [title]="name.toLowerCase()"
+                     class="{{name.toLowerCase()}}-svg position-absolute" 
+                     loading="lazy">
+            </div>
+        </div>
+
+        <div class="row justify-content-center txt-bg txt-bg-mission">
+            <div class="col-lg-6">
+                <div class="section-title text-center mb-4 pb-2 wow fadeIn">
+                    <div class="mb-5 pb-3">
+                        <i class="fas fa-infinity h1 text-muted"></i>
+                    </div>
+                    <h2 class="h3 font-weight-bold" id="my-mission">My mission</h2>
+                    <p class="text-muted mx-auto mb-0 mt-4 para-desc">
+                        Certifications and Work Profile
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div *ngFor="let missionList of missionData.mission" class="row">
+            <div *ngFor="let mission of missionList" 
+                 class="col-lg-4 wow bounceIn{{mission.class}}">
+                <div class="mission-flip-box mt-4 pt-2">
+                    <div class="mission-front-flip text-center p-5">
+                        <div class="mission-desc">
+                            <h3 class="h5 font-weight-bold mb-3">{{mission.title}}</h3>
+                            <p class="text-muted mb-0">{{mission.subtitle}}</p>
+                            <p class="text-muted mb-0">{{mission.date}}</p>
+                        </div>
+                    </div>
+                    <div class="mission-back-flip text-center text-white p-4">
+                        <div class="mb-1">{{mission.description}}</div>
+                        <br>
+                        <ng-template #title>
+                            <strong><em>Certificate Link</em></strong>
+                        </ng-template>
+                        <a rel="noreferrer" 
+                           aria-label="certificate(opens in a new tab)" 
+                           [href]="'https://drive.google.com/file/d/' + mission.link + '/view?usp=sharing'" 
+                           target="_blank"
+                           class="btn btn-round p-2 certificate-button" 
+                           placement="bottom" 
+                           [ngbTooltip]="title">
+                            Certificate Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
